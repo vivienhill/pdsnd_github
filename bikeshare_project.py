@@ -81,29 +81,6 @@ def load_data(city, month, day):
     return df
 
 
-def time_stats(df):
-    """Displays statistics on the most frequent times of travel."""
-
-    print('\nCalculating The Most Frequent Times of Travel...\n')
-    start_time = time.time()
-
-    # TO DO: display the most common month
-    popular_month = df['month'].mode()[0]
-    print('Most Common Start Month:', popular_month)
-
-    # TO DO: display the most common day of week
-    popular_day_of_week = df['day_of_week'].mode()[0]
-    print('Most Common Start Day of Week:', popular_day_of_week)
-
-    # TO DO: display the most common start hour
-    df['hour'] = df['Start Time'].dt.hour
-    popular_hour = df['hour'].mode()[0]
-    print('Most Common Start Hour:', popular_hour)
-
-    print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
-
-
 def station_stats(df):
     """Displays statistics on the most popular stations and trip."""
 
