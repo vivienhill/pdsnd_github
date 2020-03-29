@@ -6,7 +6,7 @@
 Bikeshare Data
 
 ### Description
-This project explores data related to bike share systesm for three major cities in the United States - Chicago, New York City, and Washington.
+This project explores data related to bike share systems for three major cities in the United States - Chicago, New York City, and Washington.
 
 ### Files used
 chicago.csv
