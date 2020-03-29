@@ -13,5 +13,8 @@ chicago.csv
 new_york_city.csv
 washington.csv
 
+### Contributors
+Vivien Hill
+
 ### Credits
 Udacity's Programming for Data Science Nanodegree Program Introduction to Python course.
